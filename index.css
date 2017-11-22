@@ -1,39 +1,11 @@
 #landmine-area {
     border: 1px solid red;
+    display: inline-block;
 }
 
-.two {
-    border-right: 1px solid red;
-    border-left: 1px solid red;
-}
-
-.three {
-    border-right: 1px solid red;
-}
-
-.four {
-    border-right: 1px solid red;
-}
-
-.five {
-    border-right: 1px solid red;
-}
-.six{
-    border-top:1px solid red;
-}
-.seven {
-    border-left: 1px solid red;
-    border-right: 1px solid red;
-}
-
-.eight {
-    border-right: 1px solid red;
-}
-
-.nine {
-    border-right: 1px solid red;
-}
-
-.ten {
-    border-right: 1px solid red;
+.cell {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
 }
