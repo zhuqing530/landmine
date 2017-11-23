@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        #demo1 {
+            background: url("./images/start.png") no-repeat;
+            background-size: 20px;
+            background-position: 18px 18px;
+            width: 100px;
+            height: 60px;
+            padding-left: 25px;
+        }
+
+        #demo2 {
+            border: outset;
+            height: 50px;
+            width: 50px;
+        }
+
+        #demo3 {
+            height: 60px;
+            width: 60px;
+            border: 1px solid red;
+            text-align: center;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h2>带背景图片的按钮</h2>
+    <button id="demo1">开始</button>
+</div>
+<hr>
+<div>
+    <h2>带凸起效果的div</h2>
+    <div id="demo2"></div>
+</div>
+<hr>
+<div>
+    <h2>文字双向居中</h2>
+    <div id="demo3">1</div>
+</div>
+<hr>
+<div>
+    <h2>页面载入时进行js操作</h2>
+    <style>
+        #demo4 {
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("demo4").innerText = "载入后修改的文字";
+        };
+    </script>
+    <div id="demo4">初始文字</div>
+</div>
+<div>
+    <h2>预先设置地雷数量1-20</h2>
+    <div id="demo5">个数</div>
+</div>
+<div>
+    <h2>地雷位置随机分布</h2>
+    <div id="demo6">位置分布</div>
+</div>
+<div>
+    <h2>开始按钮文字内容变化</h2>
+    <div id="demo7">开始</div>
+</div>
+<div>
+    <h2>计算九宫格数字</h2>
+    <div id="demo8">计算</div>
+</div>
+<div>
+    <h2>捕获左键事件</h2>
+    <div id="demo9">捕获</div>
+</div>
+<div>
+    <h2>左键改变块文字</h2>
+    <div id="demo10">点击</div>
+</div>
+<div>
+    <h2>左键改变图片</h2>
+    <div id="demo11">点击</div>
+</div>
+<div>
+    <h2>根据中心点定位九宫格的位置</h2>
+    <div id="demo12">定位</div>
+</div>
+<div>
+    <h2>捕获右键
+    </h2>
+    <div id="demo13">捕获</div>
+</div>
+<div>
+    <h2>同时捕获左右键</h2>
+    <div id="demo14">捕获</div>
+</div>
+<div>
+    <h2>通过JavaScript来修改HTML节点</h2>
+    <div id="demo15">修改</div>
+</div>
+
+
+</body>
+</html>

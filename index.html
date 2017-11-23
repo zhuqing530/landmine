@@ -8,26 +8,30 @@
 <body>
 <div id="main">
     <div class="header">
-        <button id="start">开始</button>
+        <button id="start" class="start">开始</button>
+        <button class="playing">游戏中</button>
+        <button class="successful">成功</button>
+        <button class="failed">失败</button>
     </div>
+
     <div class="body">
         <div id="landmine-area">
             <div class="row">
-                <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+                <div class="cell init">+</div><div class="cell init">+</div><div class="cell init">+</div><div class="cell init">+</div><div class="cell safe">1</div><div class="cell safe">1</div>
             </div>
             <div class="row">
-                <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+                <div class="cell landmine">+</div><div class="cell safe">3</div><div class="cell safe">2</div><div class="cell safe">1</div><div class="cell safe">2</div><div class="cell landmine">+</div>
             </div>
             <div class="row">
-                <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+                <div class="cell flag">+</div><div class="cell landmine">+</div><div class="cell safe">2</div><div class="cell flag">+</div><div class="cell safe">2</div><div class="cell safe">2</div>
             </div>
             <div class="row">
-                <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+                <div class="cell safe">2</div><div class="cell safe">2</div><div class="cell safe">2</div><div class="cell safe">1</div><div class="cell safe">2</div><div class="cell flag">+</div>
             </div>
             <div class="row">
-                <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+                <div class="cell landmine">+</div><div class="cell safe">2</div><div class="cell exploded">+</div><div class="cell safe">2</div><div class="cell safe">2</div><div class="cell safe">2</div>
             </div><div class="row">
-            <div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div><div class="cell">+</div>
+            <div class="cell safe">1</div><div class="cell safe">2</div><div class="cell safe">1</div><div class="cell safe">2</div><div class="cell landmine">+</div><div class="cell safe">1</div>
         </div>
 
     </div>

@@ -1,11 +1,74 @@
+.header {
+    text-align: center;
+}
+.start {
+    width: 100px;
+    height: 60px;
+    background: url("./images/start.png") no-repeat ;
+    background-size: 20px;
+    background-position: 20px 17px;
+    padding-left: 25px;
+}
+.playing {
+    width: 100px;
+    height: 60px;
+    background:url("./images/playing.png") no-repeat ;
+    background-size: 20px;
+    background-position: 20px 17px;
+    padding-left: 25px;
+}
+.successful {
+    width: 100px;
+    height: 60px;
+    background:url("./images/successful.png") no-repeat;
+    background-size: 20px;
+    background-position: 20px 17px;
+    padding-left: 25px;
+}
+.failed {
+    width: 100px;
+    height: 60px;
+    background:url("./images/failed.png") no-repeat;
+    background-size: 20px;
+    background-position: 20px 17px;
+    padding-left: 25px;
+
+}
+
 #landmine-area {
-    border: 1px solid red;
+    background-color: antiquewhite;
+    border-style: outset;
     display: inline-block;
+}
+
+
+.body {
+    text-align: center;
+    margin: 10px;
 }
 
 .cell {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 1px solid red;
+    border: outset;
+    line-height: 50px;
+    text-align: center;
+}
+
+.exploded {
+    background: url("./images/exploded.jpeg") no-repeat;
+    background-size: 50px;
+}
+
+.flag {
+    background: url("./images/red-flag.png") no-repeat;
+    background-size: 50px;
+
+}
+
+.landmine {
+    background: url("./images/landmine.jpg") no-repeat;
+    background-size: 50px;
+
 }
