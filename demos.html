@@ -68,8 +68,16 @@
     <button onclick="generateRandomNumber(5,10)">生成</button>
 </div>
 <div>
-    <h2>地雷位置随机分布</h2>
-    <div id="demo6">位置分布</div>
+    <script>
+        function indexToXy(index, width) {
+            const y = index % width + 1;
+            const x = Math.floor(index / width) + 1;
+            document.getElementById("demo6").innerHTML = "(" + x + ", " + y + ")";
+        }
+    </script>
+    <h2>根据地雷索引求行列，假设棋盘宽度为6，则索引为26（从0开始）的行列为(5,3)</h2>
+    <button onclick="indexToXy(26,6)">求行列</button>
+    <div id="demo6"></div>
 </div>
 <div>
     <h2>开始按钮文字内容变化</h2>
