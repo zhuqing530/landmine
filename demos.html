@@ -57,8 +57,15 @@
     <div id="demo4">初始文字</div>
 </div>
 <div>
-    <h2>预先设置地雷数量1-20</h2>
-    <div id="demo5">个数</div>
+    <script>
+        function generateRandomNumber(min, max) {
+            const x = Math.floor((Math.random() * min) + (max - min));
+            document.getElementById("demo5").innerHTML = "" + x;
+        }
+    </script>
+    <h2>生成一个指定范围内(5<=x<10）的随机数</h2>
+    <div id="demo5"></div>
+    <button onclick="generateRandomNumber(5,10)">生成</button>
 </div>
 <div>
     <h2>地雷位置随机分布</h2>
