@@ -80,8 +80,13 @@
     <div id="demo6"></div>
 </div>
 <div>
+    <script>
+        function changeStartToPlaying() {
+            document.getElementById("demo7").innerHTML = "游戏中"
+        }
+    </script>
     <h2>开始按钮文字内容变化</h2>
-    <div id="demo7">开始</div>
+    <button id="demo7" onclick="changeStartToPlaying()" >开始</button>
 </div>
 <div>
     <h2>计算九宫格数字</h2>
